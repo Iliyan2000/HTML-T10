@@ -7,4 +7,12 @@ window.addEventListener("DOMContentLoaded", () => {
   button.addEventListener("click", () => {
     alert("💣");
   });
+  
+  const article = document.createElement('article class="message"');
+  const body = document.querySelector("body");
+  body.appendChild(article);
+  body.appendChild(article);
+  body.appendChild(article);
+  body.appendChild(article);
+  body.appendChild(article);
 });
