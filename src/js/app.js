@@ -9,10 +9,10 @@ window.addEventListener("DOMContentLoaded", () => {
   });
   
   var article = document.createElement("article");
-  article.classList.add("message");
   document.body.appendChild(article);
   document.body.appendChild(article);
   document.body.appendChild(article);
   document.body.appendChild(article);
   document.body.appendChild(article);
+  document.querySelectorAll("article").classList.add("message");
 });
