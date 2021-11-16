@@ -16,5 +16,6 @@ window.addEventListener("DOMContentLoaded", () => {
 	article.className = "message";
 	article.innerText = "Text";
 	document.body.appendChild(article);
+	});
   });
 });
