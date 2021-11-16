@@ -8,8 +8,9 @@ window.addEventListener("DOMContentLoaded", () => {
     alert("💣");
   });
   
-  const article = document.createElement('article, class="message"');
-  const body = document.querySelector("body");
+  var article = document.createElement("article");
+  article.classList.add('message');
+  var body = document.querySelector("body");
   body.appendChild(article);
   body.appendChild(article);
   body.appendChild(article);
