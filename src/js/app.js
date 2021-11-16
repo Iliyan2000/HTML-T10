@@ -10,13 +10,12 @@ window.addEventListener("DOMContentLoaded", () => {
   
   var body = document.querySelector("body");
   body.addEventListener("click", () => {
-	const article = document.createElement("article");
-	article.classList.add("message");
+	var action = ["article1", "article2", "article3", "article4", "article5"];
+	action.forEach(function() {
+	var article = document.createElement("article");
+	article.className = "message";
 	article.innerText = "Text";
 	document.body.appendChild(article);
-	document.body.appendChild(article);
-	document.body.appendChild(article);
-	document.body.appendChild(article);
-	document.body.appendChild(article);
+	}
   });
 });
