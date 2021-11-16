@@ -8,14 +8,15 @@ window.addEventListener("DOMContentLoaded", () => {
     alert("💣");
   });
   
+  var body = document.querySelector("body");
   body.addEventListener("click", () => {
-  var article = document.createElement("article");
-  article.classList.add("message");
-  article.innerText = "Text";
-  document.body.appendChild(article);
-  document.body.appendChild(article);
-  document.body.appendChild(article);
-  document.body.appendChild(article);
-  document.body.appendChild(article);
+	var article = document.createElement("article");
+	article.classList.add("message");
+	article.innerText = "Text";
+	document.body.appendChild(article);
+	document.body.appendChild(article);
+	document.body.appendChild(article);
+	document.body.appendChild(article);
+	document.body.appendChild(article);
   });
 });
