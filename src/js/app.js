@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", () => {
   
   var body = document.querySelector("body");
   body.addEventListener("click", () => {
-	var article = document.createElement("article");
+	const article = document.createElement("article");
 	article.classList.add("message");
 	article.innerText = "Text";
 	document.body.appendChild(article);
