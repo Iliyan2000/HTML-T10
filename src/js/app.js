@@ -9,11 +9,10 @@ window.addEventListener("DOMContentLoaded", () => {
   });
   
   var article = document.createElement("article");
-  article.className = 'message';
-  var body = document.querySelector("body");
-  body.appendChild(article);
-  body.appendChild(article);
-  body.appendChild(article);
-  body.appendChild(article);
-  body.appendChild(article);
+  article.classList.add("message");
+  document.body.appendChild(article);
+  document.body.appendChild(article);
+  document.body.appendChild(article);
+  document.body.appendChild(article);
+  document.body.appendChild(article);
 });
