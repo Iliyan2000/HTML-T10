@@ -9,7 +9,7 @@ window.addEventListener("DOMContentLoaded", () => {
   });
   
   var article = document.createElement("article");
-  article.classList.add('message');
+  article.className = 'message';
   var body = document.querySelector("body");
   body.appendChild(article);
   body.appendChild(article);
